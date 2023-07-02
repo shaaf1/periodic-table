@@ -3,7 +3,7 @@
 <head>
   <title>Periodic Table</title>
   <style>
-body {
+    body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
@@ -26,12 +26,6 @@ body {
       font-size: 14px;
     }
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
     table {
       width: 100%;
       border-collapse: collapse;
@@ -46,57 +40,64 @@ body {
     th {
       background-color: #f0f0f0;
     }
+    
     footer {
-  background-color: #f2f2f2;
-  padding: 20px;
-}
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
 
-.footer-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
 
-.footer-column {
-  width: 30%;
-}
+    .footer-column {
+      width: 100%;
+      margin-bottom: 20px;
+    }
 
-.footer-column h4 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
+    .footer-column h4 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
 
-.footer-column p {
-  font-size: 14px;
-  margin-bottom: 8px;
-}
+    .footer-column p {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
 
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-}
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
 
-.footer-column ul li {
-  margin-bottom: 5px;
-}
+    .footer-column ul li {
+      margin-bottom: 5px;
+    }
 
-.footer-column ul li a {
-  color: #333;
-  text-decoration: none;
-}
+    .footer-column ul li a {
+      color: #333;
+      text-decoration: none;
+    }
 
-.footer-bottom {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 12px;
-  color: #666;
-}
+    .footer-bottom {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 12px;
+      color: #666;
+    }
 
+    @media only screen and (min-width: 600px) {
+      .footer-column {
+        width: 48%;
+      }
+    }
   </style>
 </head>
 <body>
